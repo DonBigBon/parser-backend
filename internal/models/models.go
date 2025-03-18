@@ -1,5 +1,15 @@
 package models
 
+type CodeData struct {
+	Parts      []Part
+	Sections   []Section
+	Chapters   []Chapter
+	Paragraphs []Paragraph
+	Articles   []Article
+	Clauses    []Clause
+	SubClauses []SubClause
+}
+
 type Part struct {
 	ID     int    `json:"id"`
 	NameRu string `json:"nameRu"`

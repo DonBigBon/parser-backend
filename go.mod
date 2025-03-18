@@ -4,7 +4,9 @@ go 1.24.1
 
 require (
 	github.com/denisenkom/go-mssqldb v0.12.3
+	github.com/gorilla/mux v1.8.1
 	github.com/joho/godotenv v1.5.1
+	github.com/rs/cors v1.11.1
 	github.com/xuri/excelize/v2 v2.9.0
 )
 
